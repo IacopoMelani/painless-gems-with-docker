@@ -1,0 +1,8 @@
+version: "3"
+services:
+  painless-gems-with-docker:
+    image: painless-gems-with-docker
+    volumes:
+      - ./app.rb:/app/app.rb
+    ports:
+      - 8080:8080
